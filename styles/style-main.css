@@ -1,0 +1,375 @@
+@media print {
+    body {
+        -webkit-print-color-adjust: exact;
+    }
+}
+
+* {
+    padding: 0;
+    margin: 0px;
+}
+
+body {
+    background-color: #d4a2a2;
+}
+
+.About_Section {
+    /* background-color: aqua; */
+    margin: 10px;
+    align-items: center;
+}
+
+.bg {
+    position: absolute;
+    height: 360px;
+    width: 98%;
+    z-index: -1;
+    background-repeat: no-repeat;
+    opacity: 0.7;
+    transform: scaleX(-1);
+    border-radius: 4px;
+}
+
+.detail {
+    display: flex;
+    /* background-color: rgb(121, 153, 185); */
+    flex-direction: row;
+    padding: 14px;
+    /* align-items: flex-start; */
+}
+
+.details {
+    /* background-color: #999251; */
+    margin: 10px;
+    /* margin-right: 300px; */
+    padding: 20px;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+#propic {
+    border-radius: 50%;
+    object-fit: cover;
+    width: 240px;
+
+}
+
+.item {
+    /* background-color: chartreuse; */
+    padding: 4px;
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.text {
+    font-size: 23px;
+}
+
+.item_detail {
+    padding-left: 10px;
+}
+
+/* Images */
+#mail_img {
+    height: 30px;
+    margin: auto;
+    display: block;
+    padding-top: 4px;
+}
+
+#phone_img {
+    height: 30px;
+    margin: auto;
+    display: block;
+    padding-top: 4px;
+}
+
+#location_img {
+    height: 24px;
+    margin: auto;
+    display: block;
+    padding-top: 7px;
+}
+
+/* Heading About  */
+.Heading_Class {
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(203, 209, 118, 0.87);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.Heading_Class_div {
+    display: flex;
+    flex-direction: row;
+    /* background-color: rgb(90, 175, 190); */
+    padding: 4px;
+}
+
+#about_me_img {
+    height: 30px;
+    margin: auto;
+    display: block;
+    border-radius: 50%;
+    margin-top: 3px;
+}
+
+.heading_of_Section {
+    font-size: 30px;
+    font-family: 'Baloo Bhai' bold;
+}
+
+/* Description Section */
+.Description {
+    display: flex;
+    background-color: rgb(255 255 255 / 0%);
+    flex-direction: row;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.Description>div {
+    background-color: rgb(255 255 255 / 0%);
+    margin: 10px;
+    padding: 20px;
+}
+
+/* Table of details  */
+.Table_personal_detail {
+    flex-basis: 750px;
+}
+
+.personal_detail {
+    font-size: 20px;
+    text-align: left;
+    /* width: 40%; */
+    padding: 10px;
+    width: 40%;
+    flex-basis: 200px;
+    border: 4px;
+}
+
+.personal_detail {
+    padding: 10px;
+}
+
+.individual_row {
+    padding: 10px;
+    /* background-color: rgb(155, 194, 49); */
+}
+
+.dessec_div {
+    flex-basis: 350px;
+}
+
+#dessec {
+    font-size: 1.1rem;
+    /* font-family: 'Bree Serif', serif; */
+    /* line-height: 20pt; */
+    /* font-style: italic; */
+    padding-top: 30px;
+}
+
+
+/* Profession Section */
+.profession_ {
+    flex-basis: 500px;
+    background-color: burlywood;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.profession_detail {
+    font-size: 20px;
+    text-align: left;
+    padding: 10px;
+    width: 40%;
+    flex-basis: 200px;
+    border: 4px;
+}
+
+.profession_individual_row {
+    padding: 10px;
+}
+
+/* Education */
+.education_ {
+    flex-basis: 500px;
+    background-color: burlywood;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.education_detail {
+    font-size: 20px;
+    text-align: left;
+    padding: 10px;
+    width: 40%;
+    flex-basis: 300px;
+    border: 4px;
+}
+
+.education_individual_row {
+    padding: 10px;
+}
+
+
+
+
+.Table_personal_detail_FB {
+    margin: 10px;
+    padding: 20px;
+    font-size: 20px;
+    background-color: #f1f1f1;
+    flex-basis: 650px;
+}
+
+.dessec_div_FB {
+    margin: 10px;
+    padding: 20px;
+    font-size: 20px;
+    background-color: #f1f1f1;
+    flex-basis: 400px;
+}
+
+/* Table of details  */
+.Table_personal_detail_FNB {
+    flex-basis: 600px;
+    margin: 10px;
+    padding: 20px;
+}
+
+.personal_detail {
+    font-size: 20px;
+    text-align: left;
+    padding: 20px;
+    /* width: 40%; */
+    flex-basis: 200px;
+    border: 4px;
+}
+
+.individual_row {
+    padding: 10px;
+    /* background-color: rgb(155, 194, 49); */
+}
+
+.dessec_div {
+    flex-basis: 600px;
+}
+
+#dessec {
+    font-size: 1.1rem;
+    /* font-family: 'Bree Serif', serif; */
+    /* line-height: 20pt; */
+    /* font-style: italic; */
+}
+
+
+/* Second About  */
+.Description_FB {
+    display: flex;
+    background-color: rgba(153, 190, 228, 0.89);
+    flex-direction: row;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+.Description_FB>div {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    border-radius: 31px;
+}
+
+
+.bgWhiteShirt {
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    background-repeat: no-repeat;
+    opacity: 0.97;
+    transform: scaleX(-1);
+    border-radius: 31px;
+    float: left;
+}
+
+.image-box {
+    height: 100px;
+    background-image: linear-gradient(to right, gold 30%, transparent 80%),
+        url('images/white-shirt.jpeg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%, cover;
+}
+
+/* div {
+    position: relative;
+} */
+
+.gradient-image {
+    height: 100%;
+    width: 100%;
+    content: '';
+    display: block;
+    /* position: absolute; */
+    top: 0;
+    left: 0;
+    background: linear-gradient(to right, rgba(247, 247, 49, 1) 0%, rgba(255, 255, 255, 0) 69%);
+}
+
+.MainBox {
+    display: flex;
+    background-color: rgba(153, 190, 228, 0.89);
+    flex-direction: row;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    justify-content: center;
+    /* height: 100px; */
+}
+
+.MainBoxElement {
+    background-color: #f1f1f1;
+    margin: 10px;
+    /* padding: 20px; */
+    font-size: 30px;
+    border-radius: 31px;
+
+}
+
+
+.hero {
+    background-color: #000;
+    min-height: 300px;
+}
+
+.hero__image {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 75%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.hero:after {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 75%;
+    height: 100%;
+    background: radial-gradient(ellipse 100% 100% at right center,
+            transparent 80%,
+            #000);
+}
